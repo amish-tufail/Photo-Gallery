@@ -13,6 +13,12 @@
 		EEF1A1E82981489000B0199A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF1A1E72981489000B0199A /* Preview Assets.xcassets */; };
 		EEF1A1F2298149F300B0199A /* OnboardingViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1F1298149F300B0199A /* OnboardingViewOne.swift */; };
 		EEF1A1F429814A0C00B0199A /* OnboardingViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1F329814A0C00B0199A /* OnboardingViewTwo.swift */; };
+		EEF1A1F729815E5E00B0199A /* BackgroundClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1F629815E5E00B0199A /* BackgroundClearView.swift */; };
+		EEF1A1F929815E8600B0199A /* AboutPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1F829815E8600B0199A /* AboutPageView.swift */; };
+		EEF1A1FC29816A7400B0199A /* LicenseAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1FB29816A7400B0199A /* LicenseAgreementView.swift */; };
+		EEF1A1FE29816C7E00B0199A /* PrivacyAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1FD29816C7E00B0199A /* PrivacyAgreementView.swift */; };
+		EEF1A20029816D5E00B0199A /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1FF29816D5E00B0199A /* AppIconView.swift */; };
+		EEF1A2022981705800B0199A /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A2012981705800B0199A /* PhotoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,13 @@
 		EEF1A1E72981489000B0199A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEF1A1F1298149F300B0199A /* OnboardingViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewOne.swift; sourceTree = "<group>"; };
 		EEF1A1F329814A0C00B0199A /* OnboardingViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewTwo.swift; sourceTree = "<group>"; };
+		EEF1A1F629815E5E00B0199A /* BackgroundClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundClearView.swift; sourceTree = "<group>"; };
+		EEF1A1F829815E8600B0199A /* AboutPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageView.swift; sourceTree = "<group>"; };
+		EEF1A1FA298168D700B0199A /* Photo-Gallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Photo-Gallery-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EEF1A1FB29816A7400B0199A /* LicenseAgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreementView.swift; sourceTree = "<group>"; };
+		EEF1A1FD29816C7E00B0199A /* PrivacyAgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyAgreementView.swift; sourceTree = "<group>"; };
+		EEF1A1FF29816D5E00B0199A /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		EEF1A2012981705800B0199A /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,8 @@
 		EEF1A1DE2981488F00B0199A /* Photo Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				EEF1A1FA298168D700B0199A /* Photo-Gallery-Info.plist */,
+				EEF1A1F529815E5200B0199A /* Helpers */,
 				EEF1A1EE2981489F00B0199A /* App */,
 				EEF1A1EF298148A400B0199A /* Views */,
 				EEF1A1F0298149D300B0199A /* Onboarding */,
@@ -86,6 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				EEF1A1E12981488F00B0199A /* ContentView.swift */,
+				EEF1A1FD29816C7E00B0199A /* PrivacyAgreementView.swift */,
+				EEF1A1F829815E8600B0199A /* AboutPageView.swift */,
+				EEF1A1FB29816A7400B0199A /* LicenseAgreementView.swift */,
+				EEF1A1FF29816D5E00B0199A /* AppIconView.swift */,
+				EEF1A2012981705800B0199A /* PhotoDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -97,6 +117,14 @@
 				EEF1A1F329814A0C00B0199A /* OnboardingViewTwo.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EEF1A1F529815E5200B0199A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1A1F629815E5E00B0199A /* BackgroundClearView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +198,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF1A1F2298149F300B0199A /* OnboardingViewOne.swift in Sources */,
+				EEF1A1F729815E5E00B0199A /* BackgroundClearView.swift in Sources */,
 				EEF1A1E22981488F00B0199A /* ContentView.swift in Sources */,
 				EEF1A1F429814A0C00B0199A /* OnboardingViewTwo.swift in Sources */,
 				EEF1A1E02981488F00B0199A /* Photo_GalleryApp.swift in Sources */,
+				EEF1A1F929815E8600B0199A /* AboutPageView.swift in Sources */,
+				EEF1A1FE29816C7E00B0199A /* PrivacyAgreementView.swift in Sources */,
+				EEF1A1FC29816A7400B0199A /* LicenseAgreementView.swift in Sources */,
+				EEF1A2022981705800B0199A /* PhotoDetailView.swift in Sources */,
+				EEF1A20029816D5E00B0199A /* AppIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +335,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Gallery-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -311,6 +346,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -339,6 +375,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Gallery-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -349,6 +386,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
